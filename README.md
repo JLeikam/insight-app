@@ -1,2 +1,2 @@
 # insight-app
-Daily quote app that uses Amazon's API to provide reading recommendations, Summer 2017
+Daily quote app that uses Amazon's Product API to provide reading recommendations, Summer 2017
