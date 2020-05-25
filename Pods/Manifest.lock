@@ -1,0 +1,42 @@
+PODS:
+  - AWSAPIGateway (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSCore (2.4.16)
+  - Firebase/Core (4.0.2):
+    - FirebaseAnalytics (= 4.0.1)
+    - FirebaseCore (= 4.0.2)
+  - Firebase/Database (4.0.2):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.0.0)
+  - FirebaseAnalytics (4.0.1):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (4.0.2):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseDatabase (4.0.0):
+    - FirebaseAnalytics (~> 4.0)
+  - FirebaseInstanceID (2.0.0):
+    - FirebaseCore (~> 4.0)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+
+DEPENDENCIES:
+  - AWSAPIGateway (~> 2.4.7)
+  - Firebase/Core
+  - Firebase/Database
+
+SPEC CHECKSUMS:
+  AWSAPIGateway: 49d48577724a9f53eda1e8c53411c1f1ebac3b7b
+  AWSCore: 7c3c129991e6387bcbad7132bc3661e7135754db
+  Firebase: c7ad0731eab26d18a3fc547dd048b0f7cd9c63ae
+  FirebaseAnalytics: 4d7040fefc3cd8b291cde35f12cf063d7963f15d
+  FirebaseCore: 1a8bf6c795ad07d2918278657954ffd2552e9c17
+  FirebaseDatabase: d829b3a8c3e2ac7a16773c5df226966b0805dfc2
+  FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+
+PODFILE CHECKSUM: fde9eaa0f5ba86cdb3374fc103215ad71262cebb
+
+COCOAPODS: 1.2.1

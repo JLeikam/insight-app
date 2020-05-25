@@ -1,0 +1,1055 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033607C41F1537D100FADB68 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 033607C31F1537D100FADB68 /* GoogleService-Info.plist */; };
+		033D12DE1F226AEA00DF7EAA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033D12DD1F226AEA00DF7EAA /* Reachability.swift */; };
+		0366F5801F0D5108006394C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0366F57F1F0D5108006394C6 /* GoogleService-Info.plist */; };
+		039DD0901F1BC6B100B702D5 /* AmazonBookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DD08F1F1BC6B100B702D5 /* AmazonBookModel.swift */; };
+		039DD0921F1BC7F300B702D5 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DD0911F1BC7F300B702D5 /* DiscoverViewController.swift */; };
+		039DD0941F1BE6FB00B702D5 /* DiscoverTableViewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DD0931F1BE6FB00B702D5 /* DiscoverTableViewcell.swift */; };
+		039DD0961F1C6CF800B702D5 /* ToReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DD0951F1C6CF800B702D5 /* ToReadViewController.swift */; };
+		039DD0981F1CF6AC00B702D5 /* ReadingListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DD0971F1CF6AC00B702D5 /* ReadingListItem.swift */; };
+		039DD09A1F1D7DC700B702D5 /* ToReadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DD0991F1D7DC700B702D5 /* ToReadTableViewCell.swift */; };
+		039DD09C1F1ED26D00B702D5 /* SettingsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DD09B1F1ED26D00B702D5 /* SettingsTableTableViewController.swift */; };
+		03CF275E1F19875800BE10B9 /* PagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF275D1F19875800BE10B9 /* PagesViewController.swift */; };
+		03CF27601F199BD100BE10B9 /* SevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF275F1F199BD100BE10B9 /* SevenViewController.swift */; };
+		03CF27621F1A85D500BE10B9 /* SixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF27611F1A85D500BE10B9 /* SixViewController.swift */; };
+		03CF27641F1A9AC800BE10B9 /* FiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF27631F1A9AC800BE10B9 /* FiveViewController.swift */; };
+		03CF27661F1A9B0300BE10B9 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF27651F1A9B0300BE10B9 /* FourViewController.swift */; };
+		03CF27681F1A9C0E00BE10B9 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF27671F1A9C0E00BE10B9 /* ThreeViewController.swift */; };
+		03CF276A1F1A9C1C00BE10B9 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF27691F1A9C1C00BE10B9 /* TwoViewController.swift */; };
+		03CF276C1F1A9C2900BE10B9 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF276B1F1A9C2900BE10B9 /* OneViewController.swift */; };
+		03CF276E1F1AA42E00BE10B9 /* FavoritedInsight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF276D1F1AA42E00BE10B9 /* FavoritedInsight.swift */; };
+		03DB33191F0D525800EC7BE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DB33181F0D525800EC7BE8 /* AppDelegate.swift */; };
+		03DB331B1F0D52AA00EC7BE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DB331A1F0D52AA00EC7BE8 /* Assets.xcassets */; };
+		03DB331D1F0D52B500EC7BE8 /* backup.txt in Resources */ = {isa = PBXBuildFile; fileRef = 03DB331C1F0D52B500EC7BE8 /* backup.txt */; };
+		03DB331F1F0D52C100EC7BE8 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DB331E1F0D52C100EC7BE8 /* FavoritesViewController.swift */; };
+		03DB33211F0D52CB00EC7BE8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DB33201F0D52CB00EC7BE8 /* HomeViewController.swift */; };
+		03DB33231F0D52E200EC7BE8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DB33221F0D52E200EC7BE8 /* SettingsViewController.swift */; };
+		03DB33271F0D532D00EC7BE8 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DB33261F0D532D00EC7BE8 /* TabBarViewController.swift */; };
+		03DB33291F0D5EF300EC7BE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03DB33281F0D5EF300EC7BE8 /* Main.storyboard */; };
+		03DB332B1F0D5EF900EC7BE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03DB332A1F0D5EF900EC7BE8 /* LaunchScreen.storyboard */; };
+		03DB332D1F0D5F9A00EC7BE8 /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DB332C1F0D5F9A00EC7BE8 /* FavoritesTableViewCell.swift */; };
+		03DB332F1F0D972000EC7BE8 /* appdelegatebackup.txt in Resources */ = {isa = PBXBuildFile; fileRef = 03DB332E1F0D972000EC7BE8 /* appdelegatebackup.txt */; };
+		03DFA21F1F0D4221008C7F65 /* Insight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03DFA21D1F0D4221008C7F65 /* Insight.xcdatamodeld */; };
+		03DFA22F1F0D4221008C7F65 /* InsightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFA22E1F0D4221008C7F65 /* InsightTests.swift */; };
+		03DFA23A1F0D4221008C7F65 /* InsightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFA2391F0D4221008C7F65 /* InsightUITests.swift */; };
+		03E5C9A71F148ABE004FE2EF /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F8F01A1F146E64000ADB68 /* NotificationCenter.framework */; };
+		03E5C9AA1F148ABE004FE2EF /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5C9A91F148ABE004FE2EF /* TodayViewController.swift */; };
+		03E5C9AD1F148ABE004FE2EF /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E5C9AB1F148ABE004FE2EF /* MainInterface.storyboard */; };
+		03E5C9B11F148ABE004FE2EF /* InsightTodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 03E5C9A61F148ABE004FE2EF /* InsightTodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03F7320B1F1B116E002DD3E3 /* AmazonSigning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F7320A1F1B116E002DD3E3 /* AmazonSigning.swift */; };
+		255ABA8FC253B860F0796519 /* Pods_Insight_InsightTodayExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42076FC8C2384139C1BFE516 /* Pods_Insight_InsightTodayExtension.framework */; };
+		70B6D08607F48D59E860EEC5 /* Pods_Insight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3F4F9E46F117816E42472E /* Pods_Insight.framework */; };
+		85D94AC553C30DF33878A80E /* Pods_InsightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914A047D3AAC4AA4F2C25C80 /* Pods_InsightTests.framework */; };
+		F453468E8F3B55A0BF28AAA6 /* Pods_InsightUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24F12FAD76ECF13F6B76EAD /* Pods_InsightUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03DFA22B1F0D4221008C7F65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03DFA20B1F0D4221008C7F65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03DFA2121F0D4221008C7F65;
+			remoteInfo = Insight;
+		};
+		03DFA2361F0D4221008C7F65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03DFA20B1F0D4221008C7F65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03DFA2121F0D4221008C7F65;
+			remoteInfo = Insight;
+		};
+		03E5C9AF1F148ABE004FE2EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03DFA20B1F0D4221008C7F65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03E5C9A51F148ABE004FE2EF;
+			remoteInfo = InsightTodayExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03F8F0291F146E64000ADB68 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				03E5C9B11F148ABE004FE2EF /* InsightTodayExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		033607C31F1537D100FADB68 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		033D12DD1F226AEA00DF7EAA /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		0366F57F1F0D5108006394C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		039DD08F1F1BC6B100B702D5 /* AmazonBookModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmazonBookModel.swift; sourceTree = "<group>"; };
+		039DD0911F1BC7F300B702D5 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		039DD0931F1BE6FB00B702D5 /* DiscoverTableViewcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewcell.swift; sourceTree = "<group>"; };
+		039DD0951F1C6CF800B702D5 /* ToReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToReadViewController.swift; sourceTree = "<group>"; };
+		039DD0971F1CF6AC00B702D5 /* ReadingListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingListItem.swift; sourceTree = "<group>"; };
+		039DD0991F1D7DC700B702D5 /* ToReadTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToReadTableViewCell.swift; sourceTree = "<group>"; };
+		039DD09B1F1ED26D00B702D5 /* SettingsTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableTableViewController.swift; sourceTree = "<group>"; };
+		03CF275D1F19875800BE10B9 /* PagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagesViewController.swift; sourceTree = "<group>"; };
+		03CF275F1F199BD100BE10B9 /* SevenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevenViewController.swift; sourceTree = "<group>"; };
+		03CF27611F1A85D500BE10B9 /* SixViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixViewController.swift; sourceTree = "<group>"; };
+		03CF27631F1A9AC800BE10B9 /* FiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiveViewController.swift; sourceTree = "<group>"; };
+		03CF27651F1A9B0300BE10B9 /* FourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		03CF27671F1A9C0E00BE10B9 /* ThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		03CF27691F1A9C1C00BE10B9 /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		03CF276B1F1A9C2900BE10B9 /* OneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		03CF276D1F1AA42E00BE10B9 /* FavoritedInsight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavoritedInsight.swift; path = ../FavoritedInsight.swift; sourceTree = "<group>"; };
+		03DB33181F0D525800EC7BE8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03DB331A1F0D52AA00EC7BE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03DB331C1F0D52B500EC7BE8 /* backup.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = backup.txt; sourceTree = "<group>"; };
+		03DB331E1F0D52C100EC7BE8 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		03DB33201F0D52CB00EC7BE8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		03DB33221F0D52E200EC7BE8 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		03DB33261F0D532D00EC7BE8 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		03DB33281F0D5EF300EC7BE8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		03DB332A1F0D5EF900EC7BE8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03DB332C1F0D5F9A00EC7BE8 /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+		03DB332E1F0D972000EC7BE8 /* appdelegatebackup.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = appdelegatebackup.txt; sourceTree = "<group>"; };
+		03DB33301F0D97A400EC7BE8 /* Insight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Insight.entitlements; sourceTree = "<group>"; };
+		03DFA2131F0D4221008C7F65 /* Insight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DFA21E1F0D4221008C7F65 /* Insight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Insight.xcdatamodel; sourceTree = "<group>"; };
+		03DFA2251F0D4221008C7F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03DFA22A1F0D4221008C7F65 /* InsightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DFA22E1F0D4221008C7F65 /* InsightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightTests.swift; sourceTree = "<group>"; };
+		03DFA2301F0D4221008C7F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03DFA2351F0D4221008C7F65 /* InsightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DFA2391F0D4221008C7F65 /* InsightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightUITests.swift; sourceTree = "<group>"; };
+		03DFA23B1F0D4221008C7F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E5C9A61F148ABE004FE2EF /* InsightTodayExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = InsightTodayExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E5C9A91F148ABE004FE2EF /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		03E5C9AC1F148ABE004FE2EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		03E5C9AE1F148ABE004FE2EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E5C9B51F148AD0004FE2EF /* InsightTodayExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InsightTodayExtension.entitlements; sourceTree = "<group>"; };
+		03F732071F1B0D12002DD3E3 /* Insight-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Insight-Bridging-Header.h"; sourceTree = "<group>"; };
+		03F7320A1F1B116E002DD3E3 /* AmazonSigning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmazonSigning.swift; sourceTree = "<group>"; };
+		03F8F01A1F146E64000ADB68 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		2BA8CC21105E8C88945F239B /* Pods-InsightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsightUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InsightUITests/Pods-InsightUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		395B4F008D1E9616A001DD31 /* Pods-InsightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsightTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InsightTests/Pods-InsightTests.release.xcconfig"; sourceTree = "<group>"; };
+		42076FC8C2384139C1BFE516 /* Pods_Insight_InsightTodayExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insight_InsightTodayExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F6D6AC2BF7DB79612044B2 /* Pods-InsightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsightTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InsightTests/Pods-InsightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B6F894AE412BC0CDCBF5A9C /* Pods-Insight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insight.release.xcconfig"; path = "Pods/Target Support Files/Pods-Insight/Pods-Insight.release.xcconfig"; sourceTree = "<group>"; };
+		6BDDB3A8B855456F6161A1F8 /* Pods-Insight-InsightTodayExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insight-InsightTodayExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Insight-InsightTodayExtension/Pods-Insight-InsightTodayExtension.release.xcconfig"; sourceTree = "<group>"; };
+		8C94123583FEC24D7A5B5F8D /* Pods-Insight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Insight/Pods-Insight.debug.xcconfig"; sourceTree = "<group>"; };
+		914A047D3AAC4AA4F2C25C80 /* Pods_InsightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InsightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		940E29DC5B8ADE925AD42499 /* Pods-InsightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsightUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InsightUITests/Pods-InsightUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B24F12FAD76ECF13F6B76EAD /* Pods_InsightUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InsightUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3F4F9E46F117816E42472E /* Pods_Insight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB208440EF9A0E713D604162 /* Pods-Insight-InsightTodayExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insight-InsightTodayExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Insight-InsightTodayExtension/Pods-Insight-InsightTodayExtension.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03DFA2101F0D4221008C7F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B6D08607F48D59E860EEC5 /* Pods_Insight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DFA2271F0D4221008C7F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D94AC553C30DF33878A80E /* Pods_InsightTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DFA2321F0D4221008C7F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F453468E8F3B55A0BF28AAA6 /* Pods_InsightUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E5C9A31F148ABE004FE2EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E5C9A71F148ABE004FE2EF /* NotificationCenter.framework in Frameworks */,
+				255ABA8FC253B860F0796519 /* Pods_Insight_InsightTodayExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03DFA20A1F0D4221008C7F65 = {
+			isa = PBXGroup;
+			children = (
+				03DFA2151F0D4221008C7F65 /* Insight */,
+				03DFA22D1F0D4221008C7F65 /* InsightTests */,
+				03DFA2381F0D4221008C7F65 /* InsightUITests */,
+				03E5C9A81F148ABE004FE2EF /* InsightTodayExtension */,
+				03DFA2141F0D4221008C7F65 /* Products */,
+				71C832B2C731E589AABA61FC /* Pods */,
+				D1D44DBC4A1B0B0818AD55EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03DFA2141F0D4221008C7F65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03DFA2131F0D4221008C7F65 /* Insight.app */,
+				03DFA22A1F0D4221008C7F65 /* InsightTests.xctest */,
+				03DFA2351F0D4221008C7F65 /* InsightUITests.xctest */,
+				03E5C9A61F148ABE004FE2EF /* InsightTodayExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03DFA2151F0D4221008C7F65 /* Insight */ = {
+			isa = PBXGroup;
+			children = (
+				03F7320A1F1B116E002DD3E3 /* AmazonSigning.swift */,
+				03CF276D1F1AA42E00BE10B9 /* FavoritedInsight.swift */,
+				039DD0971F1CF6AC00B702D5 /* ReadingListItem.swift */,
+				039DD08F1F1BC6B100B702D5 /* AmazonBookModel.swift */,
+				03F732071F1B0D12002DD3E3 /* Insight-Bridging-Header.h */,
+				03DB33181F0D525800EC7BE8 /* AppDelegate.swift */,
+				03DB33301F0D97A400EC7BE8 /* Insight.entitlements */,
+				03DB332A1F0D5EF900EC7BE8 /* LaunchScreen.storyboard */,
+				03CF275F1F199BD100BE10B9 /* SevenViewController.swift */,
+				03CF27611F1A85D500BE10B9 /* SixViewController.swift */,
+				03CF27631F1A9AC800BE10B9 /* FiveViewController.swift */,
+				03CF27651F1A9B0300BE10B9 /* FourViewController.swift */,
+				03CF27671F1A9C0E00BE10B9 /* ThreeViewController.swift */,
+				03CF27691F1A9C1C00BE10B9 /* TwoViewController.swift */,
+				03CF276B1F1A9C2900BE10B9 /* OneViewController.swift */,
+				03CF275D1F19875800BE10B9 /* PagesViewController.swift */,
+				03DB33201F0D52CB00EC7BE8 /* HomeViewController.swift */,
+				03DB33261F0D532D00EC7BE8 /* TabBarViewController.swift */,
+				03DB332C1F0D5F9A00EC7BE8 /* FavoritesTableViewCell.swift */,
+				03DB331E1F0D52C100EC7BE8 /* FavoritesViewController.swift */,
+				039DD0931F1BE6FB00B702D5 /* DiscoverTableViewcell.swift */,
+				039DD0911F1BC7F300B702D5 /* DiscoverViewController.swift */,
+				03DB33281F0D5EF300EC7BE8 /* Main.storyboard */,
+				03DB33221F0D52E200EC7BE8 /* SettingsViewController.swift */,
+				039DD09B1F1ED26D00B702D5 /* SettingsTableTableViewController.swift */,
+				033D12DD1F226AEA00DF7EAA /* Reachability.swift */,
+				039DD0951F1C6CF800B702D5 /* ToReadViewController.swift */,
+				039DD0991F1D7DC700B702D5 /* ToReadTableViewCell.swift */,
+				0366F57F1F0D5108006394C6 /* GoogleService-Info.plist */,
+				03DB331A1F0D52AA00EC7BE8 /* Assets.xcassets */,
+				03DFA2251F0D4221008C7F65 /* Info.plist */,
+				03DFA21D1F0D4221008C7F65 /* Insight.xcdatamodeld */,
+				03DB331C1F0D52B500EC7BE8 /* backup.txt */,
+				03DB332E1F0D972000EC7BE8 /* appdelegatebackup.txt */,
+			);
+			path = Insight;
+			sourceTree = "<group>";
+		};
+		03DFA22D1F0D4221008C7F65 /* InsightTests */ = {
+			isa = PBXGroup;
+			children = (
+				03DFA22E1F0D4221008C7F65 /* InsightTests.swift */,
+				03DFA2301F0D4221008C7F65 /* Info.plist */,
+			);
+			path = InsightTests;
+			sourceTree = "<group>";
+		};
+		03DFA2381F0D4221008C7F65 /* InsightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03DFA2391F0D4221008C7F65 /* InsightUITests.swift */,
+				03DFA23B1F0D4221008C7F65 /* Info.plist */,
+			);
+			path = InsightUITests;
+			sourceTree = "<group>";
+		};
+		03E5C9A81F148ABE004FE2EF /* InsightTodayExtension */ = {
+			isa = PBXGroup;
+			children = (
+				033607C31F1537D100FADB68 /* GoogleService-Info.plist */,
+				03E5C9B51F148AD0004FE2EF /* InsightTodayExtension.entitlements */,
+				03E5C9A91F148ABE004FE2EF /* TodayViewController.swift */,
+				03E5C9AB1F148ABE004FE2EF /* MainInterface.storyboard */,
+				03E5C9AE1F148ABE004FE2EF /* Info.plist */,
+			);
+			path = InsightTodayExtension;
+			sourceTree = "<group>";
+		};
+		71C832B2C731E589AABA61FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C94123583FEC24D7A5B5F8D /* Pods-Insight.debug.xcconfig */,
+				4B6F894AE412BC0CDCBF5A9C /* Pods-Insight.release.xcconfig */,
+				46F6D6AC2BF7DB79612044B2 /* Pods-InsightTests.debug.xcconfig */,
+				395B4F008D1E9616A001DD31 /* Pods-InsightTests.release.xcconfig */,
+				2BA8CC21105E8C88945F239B /* Pods-InsightUITests.debug.xcconfig */,
+				940E29DC5B8ADE925AD42499 /* Pods-InsightUITests.release.xcconfig */,
+				FB208440EF9A0E713D604162 /* Pods-Insight-InsightTodayExtension.debug.xcconfig */,
+				6BDDB3A8B855456F6161A1F8 /* Pods-Insight-InsightTodayExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1D44DBC4A1B0B0818AD55EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF3F4F9E46F117816E42472E /* Pods_Insight.framework */,
+				914A047D3AAC4AA4F2C25C80 /* Pods_InsightTests.framework */,
+				B24F12FAD76ECF13F6B76EAD /* Pods_InsightUITests.framework */,
+				03F8F01A1F146E64000ADB68 /* NotificationCenter.framework */,
+				42076FC8C2384139C1BFE516 /* Pods_Insight_InsightTodayExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03DFA2121F0D4221008C7F65 /* Insight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DFA23E1F0D4221008C7F65 /* Build configuration list for PBXNativeTarget "Insight" */;
+			buildPhases = (
+				12DA01C9A26CC8E388C5A190 /* [CP] Check Pods Manifest.lock */,
+				03DFA20F1F0D4221008C7F65 /* Sources */,
+				03DFA2101F0D4221008C7F65 /* Frameworks */,
+				03DFA2111F0D4221008C7F65 /* Resources */,
+				C1EAE270B41940DE4F60D23E /* [CP] Embed Pods Frameworks */,
+				6F1E5D2038553A32F92FBBB7 /* [CP] Copy Pods Resources */,
+				03F8F0291F146E64000ADB68 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03E5C9B01F148ABE004FE2EF /* PBXTargetDependency */,
+			);
+			name = Insight;
+			productName = Insight;
+			productReference = 03DFA2131F0D4221008C7F65 /* Insight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03DFA2291F0D4221008C7F65 /* InsightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DFA2411F0D4221008C7F65 /* Build configuration list for PBXNativeTarget "InsightTests" */;
+			buildPhases = (
+				4BCE60C4B7143ABF2EB260BC /* [CP] Check Pods Manifest.lock */,
+				03DFA2261F0D4221008C7F65 /* Sources */,
+				03DFA2271F0D4221008C7F65 /* Frameworks */,
+				03DFA2281F0D4221008C7F65 /* Resources */,
+				4524DCCBAC4E0A1909B66966 /* [CP] Embed Pods Frameworks */,
+				7AB8A990FA89407B7E4C6956 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03DFA22C1F0D4221008C7F65 /* PBXTargetDependency */,
+			);
+			name = InsightTests;
+			productName = InsightTests;
+			productReference = 03DFA22A1F0D4221008C7F65 /* InsightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03DFA2341F0D4221008C7F65 /* InsightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DFA2441F0D4221008C7F65 /* Build configuration list for PBXNativeTarget "InsightUITests" */;
+			buildPhases = (
+				4EA7BBC97DC63986E7DAD771 /* [CP] Check Pods Manifest.lock */,
+				03DFA2311F0D4221008C7F65 /* Sources */,
+				03DFA2321F0D4221008C7F65 /* Frameworks */,
+				03DFA2331F0D4221008C7F65 /* Resources */,
+				1D745DE04ADAA3034FE2BCEB /* [CP] Embed Pods Frameworks */,
+				B24E790C9658018E8B035F15 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03DFA2371F0D4221008C7F65 /* PBXTargetDependency */,
+			);
+			name = InsightUITests;
+			productName = InsightUITests;
+			productReference = 03DFA2351F0D4221008C7F65 /* InsightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		03E5C9A51F148ABE004FE2EF /* InsightTodayExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E5C9B21F148ABE004FE2EF /* Build configuration list for PBXNativeTarget "InsightTodayExtension" */;
+			buildPhases = (
+				28A783CFFA43727F1FA77428 /* [CP] Check Pods Manifest.lock */,
+				03E5C9A21F148ABE004FE2EF /* Sources */,
+				03E5C9A31F148ABE004FE2EF /* Frameworks */,
+				03E5C9A41F148ABE004FE2EF /* Resources */,
+				B8D48BD1B1044C5393745E5D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsightTodayExtension;
+			productName = InsightTodayExtension;
+			productReference = 03E5C9A61F148ABE004FE2EF /* InsightTodayExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03DFA20B1F0D4221008C7F65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Josh Leikam";
+				TargetAttributes = {
+					03DFA2121F0D4221008C7F65 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F895R3X88Q;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					03DFA2291F0D4221008C7F65 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F895R3X88Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03DFA2121F0D4221008C7F65;
+					};
+					03DFA2341F0D4221008C7F65 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F895R3X88Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03DFA2121F0D4221008C7F65;
+					};
+					03E5C9A51F148ABE004FE2EF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F895R3X88Q;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 03DFA20E1F0D4221008C7F65 /* Build configuration list for PBXProject "Insight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03DFA20A1F0D4221008C7F65;
+			productRefGroup = 03DFA2141F0D4221008C7F65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03DFA2121F0D4221008C7F65 /* Insight */,
+				03DFA2291F0D4221008C7F65 /* InsightTests */,
+				03DFA2341F0D4221008C7F65 /* InsightUITests */,
+				03E5C9A51F148ABE004FE2EF /* InsightTodayExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03DFA2111F0D4221008C7F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DB331B1F0D52AA00EC7BE8 /* Assets.xcassets in Resources */,
+				0366F5801F0D5108006394C6 /* GoogleService-Info.plist in Resources */,
+				03DB331D1F0D52B500EC7BE8 /* backup.txt in Resources */,
+				03DB332B1F0D5EF900EC7BE8 /* LaunchScreen.storyboard in Resources */,
+				03DB33291F0D5EF300EC7BE8 /* Main.storyboard in Resources */,
+				03DB332F1F0D972000EC7BE8 /* appdelegatebackup.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DFA2281F0D4221008C7F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DFA2331F0D4221008C7F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E5C9A41F148ABE004FE2EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E5C9AD1F148ABE004FE2EF /* MainInterface.storyboard in Resources */,
+				033607C41F1537D100FADB68 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12DA01C9A26CC8E388C5A190 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1D745DE04ADAA3034FE2BCEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InsightUITests/Pods-InsightUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28A783CFFA43727F1FA77428 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4524DCCBAC4E0A1909B66966 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InsightTests/Pods-InsightTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BCE60C4B7143ABF2EB260BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4EA7BBC97DC63986E7DAD771 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F1E5D2038553A32F92FBBB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Insight/Pods-Insight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AB8A990FA89407B7E4C6956 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InsightTests/Pods-InsightTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B24E790C9658018E8B035F15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InsightUITests/Pods-InsightUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8D48BD1B1044C5393745E5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Insight-InsightTodayExtension/Pods-Insight-InsightTodayExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1EAE270B41940DE4F60D23E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Insight/Pods-Insight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03DFA20F1F0D4221008C7F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DB33191F0D525800EC7BE8 /* AppDelegate.swift in Sources */,
+				039DD0981F1CF6AC00B702D5 /* ReadingListItem.swift in Sources */,
+				039DD0941F1BE6FB00B702D5 /* DiscoverTableViewcell.swift in Sources */,
+				03DB331F1F0D52C100EC7BE8 /* FavoritesViewController.swift in Sources */,
+				039DD0961F1C6CF800B702D5 /* ToReadViewController.swift in Sources */,
+				03CF27661F1A9B0300BE10B9 /* FourViewController.swift in Sources */,
+				03CF27601F199BD100BE10B9 /* SevenViewController.swift in Sources */,
+				03DFA21F1F0D4221008C7F65 /* Insight.xcdatamodeld in Sources */,
+				03CF27681F1A9C0E00BE10B9 /* ThreeViewController.swift in Sources */,
+				03CF276E1F1AA42E00BE10B9 /* FavoritedInsight.swift in Sources */,
+				03CF276C1F1A9C2900BE10B9 /* OneViewController.swift in Sources */,
+				039DD09C1F1ED26D00B702D5 /* SettingsTableTableViewController.swift in Sources */,
+				03CF275E1F19875800BE10B9 /* PagesViewController.swift in Sources */,
+				039DD0921F1BC7F300B702D5 /* DiscoverViewController.swift in Sources */,
+				03F7320B1F1B116E002DD3E3 /* AmazonSigning.swift in Sources */,
+				039DD09A1F1D7DC700B702D5 /* ToReadTableViewCell.swift in Sources */,
+				03DB33231F0D52E200EC7BE8 /* SettingsViewController.swift in Sources */,
+				039DD0901F1BC6B100B702D5 /* AmazonBookModel.swift in Sources */,
+				03DB33271F0D532D00EC7BE8 /* TabBarViewController.swift in Sources */,
+				03DB33211F0D52CB00EC7BE8 /* HomeViewController.swift in Sources */,
+				03DB332D1F0D5F9A00EC7BE8 /* FavoritesTableViewCell.swift in Sources */,
+				03CF276A1F1A9C1C00BE10B9 /* TwoViewController.swift in Sources */,
+				03CF27641F1A9AC800BE10B9 /* FiveViewController.swift in Sources */,
+				033D12DE1F226AEA00DF7EAA /* Reachability.swift in Sources */,
+				03CF27621F1A85D500BE10B9 /* SixViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DFA2261F0D4221008C7F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DFA22F1F0D4221008C7F65 /* InsightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DFA2311F0D4221008C7F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DFA23A1F0D4221008C7F65 /* InsightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E5C9A21F148ABE004FE2EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E5C9AA1F148ABE004FE2EF /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03DFA22C1F0D4221008C7F65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03DFA2121F0D4221008C7F65 /* Insight */;
+			targetProxy = 03DFA22B1F0D4221008C7F65 /* PBXContainerItemProxy */;
+		};
+		03DFA2371F0D4221008C7F65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03DFA2121F0D4221008C7F65 /* Insight */;
+			targetProxy = 03DFA2361F0D4221008C7F65 /* PBXContainerItemProxy */;
+		};
+		03E5C9B01F148ABE004FE2EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03E5C9A51F148ABE004FE2EF /* InsightTodayExtension */;
+			targetProxy = 03E5C9AF1F148ABE004FE2EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03E5C9AB1F148ABE004FE2EF /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E5C9AC1F148ABE004FE2EF /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03DFA23C1F0D4221008C7F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03DFA23D1F0D4221008C7F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03DFA23F1F0D4221008C7F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C94123583FEC24D7A5B5F8D /* Pods-Insight.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Insight/Insight.entitlements;
+				DEVELOPMENT_TEAM = F895R3X88Q;
+				INFOPLIST_FILE = Insight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshleikam.Insight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Insight/Insight-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		03DFA2401F0D4221008C7F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6F894AE412BC0CDCBF5A9C /* Pods-Insight.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Insight/Insight.entitlements;
+				DEVELOPMENT_TEAM = F895R3X88Q;
+				INFOPLIST_FILE = Insight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshleikam.Insight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Insight/Insight-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		03DFA2421F0D4221008C7F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F6D6AC2BF7DB79612044B2 /* Pods-InsightTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F895R3X88Q;
+				INFOPLIST_FILE = InsightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshleikam.InsightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insight.app/Insight";
+			};
+			name = Debug;
+		};
+		03DFA2431F0D4221008C7F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395B4F008D1E9616A001DD31 /* Pods-InsightTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F895R3X88Q;
+				INFOPLIST_FILE = InsightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshleikam.InsightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insight.app/Insight";
+			};
+			name = Release;
+		};
+		03DFA2451F0D4221008C7F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA8CC21105E8C88945F239B /* Pods-InsightUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F895R3X88Q;
+				INFOPLIST_FILE = InsightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshleikam.InsightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Insight;
+			};
+			name = Debug;
+		};
+		03DFA2461F0D4221008C7F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940E29DC5B8ADE925AD42499 /* Pods-InsightUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F895R3X88Q;
+				INFOPLIST_FILE = InsightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshleikam.InsightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Insight;
+			};
+			name = Release;
+		};
+		03E5C9B31F148ABE004FE2EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB208440EF9A0E713D604162 /* Pods-Insight-InsightTodayExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = InsightTodayExtension/InsightTodayExtension.entitlements;
+				DEVELOPMENT_TEAM = F895R3X88Q;
+				INFOPLIST_FILE = InsightTodayExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshleikam.Insight.InsightTodayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		03E5C9B41F148ABE004FE2EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BDDB3A8B855456F6161A1F8 /* Pods-Insight-InsightTodayExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = InsightTodayExtension/InsightTodayExtension.entitlements;
+				DEVELOPMENT_TEAM = F895R3X88Q;
+				INFOPLIST_FILE = InsightTodayExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshleikam.Insight.InsightTodayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03DFA20E1F0D4221008C7F65 /* Build configuration list for PBXProject "Insight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DFA23C1F0D4221008C7F65 /* Debug */,
+				03DFA23D1F0D4221008C7F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DFA23E1F0D4221008C7F65 /* Build configuration list for PBXNativeTarget "Insight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DFA23F1F0D4221008C7F65 /* Debug */,
+				03DFA2401F0D4221008C7F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DFA2411F0D4221008C7F65 /* Build configuration list for PBXNativeTarget "InsightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DFA2421F0D4221008C7F65 /* Debug */,
+				03DFA2431F0D4221008C7F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DFA2441F0D4221008C7F65 /* Build configuration list for PBXNativeTarget "InsightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DFA2451F0D4221008C7F65 /* Debug */,
+				03DFA2461F0D4221008C7F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E5C9B21F148ABE004FE2EF /* Build configuration list for PBXNativeTarget "InsightTodayExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E5C9B31F148ABE004FE2EF /* Debug */,
+				03E5C9B41F148ABE004FE2EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03DFA21D1F0D4221008C7F65 /* Insight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03DFA21E1F0D4221008C7F65 /* Insight.xcdatamodel */,
+			);
+			currentVersion = 03DFA21E1F0D4221008C7F65 /* Insight.xcdatamodel */;
+			path = Insight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03DFA20B1F0D4221008C7F65 /* Project object */;
+}
